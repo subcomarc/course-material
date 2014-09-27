@@ -17,5 +17,5 @@ for line in digits:
                 TempRes = Result
                 BestCiph = TargCiph
         TargCiph = []
-print(BestCiph)
+print(TempRes)
 digits.close()

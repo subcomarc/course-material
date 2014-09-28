@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-Alphabet='abcdefghijklmnopqrstuvwxyz'
-init=0
+Alphabet = 'abcdefghijklmnopqrstuvwxyz'
+init = 0
 for i in range(len(Alphabet)):
-    for j in range(init,len(Alphabet)):       
-        if i!=j:
+    for j in range(init, len(Alphabet)):
+        if i != j:
             print(Alphabet[i]+Alphabet[j])
-    init=init+1
+    init = init + 1

@@ -9,7 +9,7 @@ def euclidean(a, b):
     for i in range(len(a)):
         Dtemp = Dtemp + (b[i]-a[i])**2
     D = Dtemp**0.5
-    print(D)
+    return (D)
 
 
 def opt_euclidean(a, b):
@@ -18,7 +18,7 @@ def opt_euclidean(a, b):
     for i in range(len(a)):
         Dtemp = Dtemp + math.pow((b[i]-a[i]), 2)
     D = math.sqrt(Dtemp)
-    print(D)
+    return (D)
 
 
 def np_euclidean(a, b):
@@ -27,4 +27,4 @@ def np_euclidean(a, b):
     for i in range(len(a)):
         Dtemp = Dtemp + np.power((b[i]-a[i]), 2)
     D = np.sqrt(Dtemp)
-    print(D)
+    return (D)

@@ -19,7 +19,7 @@ def is_prime(n):
     else:
         TargNum = 0
     if n == 1:
-        return True
+        return False
     elif n == 2:
         return True
     elif n == 3:
